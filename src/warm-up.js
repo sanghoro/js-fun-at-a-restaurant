@@ -13,8 +13,6 @@ var food = "Ice Cream";
 var type = "Dessert";
 var inStock = 10
 
-
-
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make 
 // the inStock count double what it currently is.
 
