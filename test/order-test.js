@@ -14,7 +14,7 @@ describe("order.js", function() {
       assert.isFunction(takeOrder);
     });
 
-    it.skip("should add new orders to an order type list", function() {
+    it("should add new orders to an order type list", function() {
       var order1 = {
         orderNumber: 1,
         item: "burger",

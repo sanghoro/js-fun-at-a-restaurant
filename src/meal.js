@@ -6,11 +6,11 @@ nameMenuItem('Burrito');
 nameMenuItem('Pizza');
 nameMenuItem('Taco');
 
-function createMenuItem() {
-  var menuItem = {
-    name: nameMenuItem("French Toast"),
-    price: 10.99,
-    type: "breakfast"
+function createMenuItem(name, price, type) {
+  var menuItem = { 
+    name: name, 
+    price: price, 
+    type: type 
   }
   return menuItem
 }
@@ -22,25 +22,31 @@ function addIngredients(newIngredient, ingredients) {
   return ingredients;
 }
 
+
 function formatPrice(price) {
-  var formattedPrice = `$${price}`;
-  return formattedPrice;
+  var formattedPrice = `$${price}`
+  return formattedPrice
 }
 
 
 function decreasePrice(price) {
-  var price = 6 * 0.9;
-  return price
+  return price * 0.9
 }
 
+/// 1.we are getting a recipe object
+//2. return recipe object
+//3. print out object
 
-function createRecipe() {
-  return recipe = {
-    title: nameMenuItem("Eggs & Bacon"),
-    ingredients: ["eggs", "bacon"],
-    type: "breakfast"
+function createRecipe(title, ingredients, type) {
+  var recipe = {
+    title: title,
+    ingredients: ingredients,
+    type: type
   }
+  return recipe
 }
+
+
 
 
 
