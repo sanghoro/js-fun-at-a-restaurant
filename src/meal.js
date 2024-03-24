@@ -33,9 +33,6 @@ function decreasePrice(price) {
   return price * 0.9
 }
 
-/// 1.we are getting a recipe object
-//2. return recipe object
-//3. print out object
 
 function createRecipe(title, ingredients, type) {
   var recipe = {
